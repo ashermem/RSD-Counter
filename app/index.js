@@ -3,8 +3,8 @@ import './strict.css';
 // Required for Fast Refresh to work on Expo Web
 import '@expo/metro-runtime';
 
-import { LogBox } from 'react-native';
 import { registerRootComponent } from 'expo';
+import { LogBox } from 'react-native';
 import App from './App';
 
 if (LogBox != null) {
